@@ -10,3 +10,6 @@
 ## 2020.01.17 저녁
 - 다시 socket으로 돌아옴
 - tornado로 socket 통신 시도중
+## 2020.01.18 오후
+- Websocket 사용하려고 하니 아래 오류가 계속 떠서 처리중
+- Can "Upgrade" only to "WebSocket".
