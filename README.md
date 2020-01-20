@@ -13,3 +13,5 @@
 ## 2020.01.18 오후
 - Websocket 사용하려고 하니 아래 오류가 계속 떠서 처리중
 - Can "Upgrade" only to "WebSocket".
+## 2020.01.20
+- Spring websocket client 구현중
