@@ -348,3 +348,6 @@ dmypy.json
 .pyre/
 
 # End of https://www.gitignore.io/api/java,python,pycharm,eclipse,java-web,intellij
+
+# tomcat server directory
+Servers
