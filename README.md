@@ -15,3 +15,7 @@
 - Can "Upgrade" only to "WebSocket".
 ## 2020.01.20
 - Spring websocket client 구현중
+## 2020.01.21
+- Spring websocket client와 Tornado websocket Server 연결
+- Eclipse console에 메시지 작성하면 server에서 가공하여 되돌려준다
+- 이미지 처리는 어떻게 해야하는가
