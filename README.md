@@ -20,3 +20,7 @@
 - Spring websocket client와 Tornado websocket Server 연결
 - Eclipse console에 메시지 작성하면 server에서 가공하여 되돌려준다
 - 이미지 처리는 어떻게 해야하는가
+## 2020.01.22
+- message와 message 전송 대신 파일 전송하는 방법을 찾아야 한다
+- sendBinary() 메서드 실험 필요함
+- multipart/form-data에서 binary로 변환이 가능한지 확인 필요
