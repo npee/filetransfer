@@ -24,3 +24,5 @@
 - message와 message 전송 대신 파일 전송하는 방법을 찾아야 한다
 - sendBinary() 메서드 실험 필요함
 - multipart/form-data에서 binary로 변환이 가능한지 확인 필요
+## 2020.01.23~25
+- 설연휴로 쉬는중
