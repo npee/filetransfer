@@ -14,6 +14,7 @@ class IndexHandler(tornado.web.RequestHandler):
     def get(self):
         # self.render("index.html")
         print("got client myself")
+        print(self.request.headers)
 
 
 class SocketHandler(tornado.websocket.WebSocketHandler):
