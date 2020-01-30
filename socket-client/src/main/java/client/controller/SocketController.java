@@ -26,8 +26,11 @@ public class SocketController {
 	}
 
 	@RequestMapping(value="/socket/upload", method=RequestMethod.POST)
-	public void fileupload(MultipartHttpServletRequest multipartRequest, HttpServletResponse response, HttpServletRequest request) {
-		System.err.println(multipartRequest.getParameter("temp"));
+	public void fileupload(
+			MultipartHttpServletRequest multipartRequest,
+			HttpServletResponse response,
+			HttpServletRequest request) {
+		//System.err.println(multipartRequest.getParameter("temp"));
 		String filePath = request.getSession().getServletContext().getRealPath("tmp");
 		
 		HandlerFile handlerFile = new HandlerFile(multipartRequest, filePath);
@@ -46,7 +49,7 @@ public class SocketController {
 			response.setContentType("text/html; charset=UTF-8");
 			out = response.getOutputStream();
 			
-			if (result.equals("null") || result.equals("fall")) {
+			if ("null".equals(result) || "fail".equals(result)) {
 				js = "<script>history.back(); alert('Result : Error! Page Reload!');</script>";
 			} else {
 				js = "<script>alert('Result : " + result + "'); location.href='https://www.google.co.kr/search?q=" + result + "'</script>";
