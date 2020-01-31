@@ -38,4 +38,4 @@
 ## 2020.01.30~
 - local 상에서의 파일 전송은 성
 - local 상에서 DB 연결 해야함(MySQL)
-- DB연결까지 확인 한 후 WebServer에
+- DB연결까지 확인 한 후 WebServer에 연동해보자
