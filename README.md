@@ -34,3 +34,8 @@
 - 결국 27일도 바빠서 해보지못했다
 ## 2020.01.28
 - 일반 Socket을 사용하여 파일 주고받기 구현(Java Client, Python Server)
+***
+## 2020.01.30~
+- local 상에서의 파일 전송은 성송
+- local 상에서 DB 연결 해야함(MySQL)
+- DB연결까지 확인 한 후 WebServer에
